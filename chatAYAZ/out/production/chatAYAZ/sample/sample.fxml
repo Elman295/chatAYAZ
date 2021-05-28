@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="427.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <children>
+      <ImageView fitHeight="400.0" fitWidth="427.0">
+         <image>
+            <Image url="@../1.jpg" />
+         </image>
+      </ImageView>
+      <Label layoutX="181.0" layoutY="59.0" prefHeight="50.0" prefWidth="110.0" text="Welcome">
+         <font>
+            <Font name="Dubai Light" size="18.0" />
+         </font>
+      </Label>
+      <Button fx:id="startbtn" layoutX="201.0" layoutY="174.0" mnemonicParsing="false" onAction="#startbtnaction1" prefHeight="26.0" prefWidth="70.0" style="-fx-background-color: transparent; -fx-border-color: blue;" text="person1" />
+      <Button fx:id="profilebtn" layoutX="48.0" layoutY="228.0" mnemonicParsing="false" onAction="#profilebtnaction" prefHeight="26.0" prefWidth="70.0" style="-fx-background-color: transparent; -fx-border-color: blue;" text="Profile" />
+      <Button fx:id="reportbtn" layoutX="48.0" layoutY="174.0" mnemonicParsing="false" onAction="#reportbtnaction" prefHeight="26.0" prefWidth="70.0" style="-fx-background-color: transparent; -fx-border-color: blue;" text="report" />
+      <ImageView fitHeight="85.0" fitWidth="92.0" layoutX="162.0" layoutY="269.0">
+         <image>
+            <Image url="@../ayaz.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="startbtn1" layoutX="201.0" layoutY="214.0" mnemonicParsing="false" onAction="#startbtnaction2" prefHeight="26.0" prefWidth="70.0" style="-fx-background-color: transparent; -fx-border-color: blue;" text="person2" />
+   </children>
+</AnchorPane>
